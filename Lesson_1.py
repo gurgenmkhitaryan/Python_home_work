@@ -6,9 +6,10 @@
 # - 1 -> нет
 
 day = int(input('Введите день недели :'))
-if day == 6 or day == 7:
-    print('Выходной !')
-if day == 5 or day == 4 or day == 3 or day == 2 or day == 1:
-    print('Рабочий день!')
+if day > 5:
+        print('Выходной !')
+if day < 6:
+        print('Рабочий день!')
 if day > 7 or day < 1:
-    print('404 :)')
+        print('404 :)')
+
