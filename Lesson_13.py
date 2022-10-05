@@ -5,10 +5,8 @@
 # - 2 -> 10
 
 num = int(input('Введите число: '))
-str_num = ''
+num_lis = []
 while num > 0:
-    str_num += str(num % 2)
+    num_lis.append(num % 2)
     num = num // 2
-
-print(f'Двоичное число через цикл: {str_num}')
-
+print(f'Двоичное число через цикл: {num_lis}')
